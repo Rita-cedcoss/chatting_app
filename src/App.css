@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+body {
+  background-color: rgb(214, 218, 208);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -34,5 +36,22 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.footer {
+  max-width: 385px;
+}
+.bgColor{
+  background-color: rgb(151 116 48);
+}
+@media only screen and (max-width: 1200px) {
+  .footer {
+    max-width: 480px;
+    
+  }
+}
+@media only screen and (max-width: 770px) {
+  .footer {
+    max-width: 520px;
   }
 }
